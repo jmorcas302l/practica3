@@ -1,0 +1,23 @@
+maquina virtual windows server 2016
+red nat y otra red interna
+se instala estandar experiencia de escritorio
+contraseña administrador: Informatica-1 y instalar get adition
+propiedades de este equipo y cambiar el nombre por SERVIDOR 019
+abrir configuracion de red, cambiar configuracion de adaptador
+confiuramos la ip con 192.168.0.1 y sin puerta de enlace y la dns 127.0.0.1
+cambiar el nombre y poner Red NAT y Red Interna comprobar que tienes internet haciendo un ping
+Activar windows
+ADMINISTRADOR DE SERVIDOR
+AGREGAR ROLES Y CAARACTERISTICAS
+EN ROLES DE SERVIDOR SELECCIONAS servicio de domino active directori
+le damos al triangulo amarillole damos a promover
+agregar un nuevo bosque, dominio: asir.com
+contraseña: Informatica-1
+nombre dominio netbios: ASIR019
+instalar, se reinicia
+herramienas- administracion de direcctivas de grupo
+desplegamos asta defaulto domain...y le damos a editar
+d
+configuracion de equipo, directivas,configuracion de windows, configuradion de..
+a la derecha, directia de cuentas, directivas de contraseña
+desavilitar exigir historia..., la contraseña debe... longitud minima 5, las 2 vigencias 0
